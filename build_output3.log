@@ -1,0 +1,240 @@
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:generateDebugRFile UP-TO-DATE
+
+> Task :app:compileDebugKotlin FAILED
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/self_help/SelfHelpToolsScreen.kt:68:17 No parameter with name 'navigationIcon' found.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/self_help/SelfHelpToolsScreen.kt:69:21 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/self_help/SelfHelpToolsScreen.kt:77:17 No parameter with name 'colors' found.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/self_help/SelfHelpToolsScreen.kt:77:17 No value passed for parameter 'content'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/self_help/SelfHelpToolsScreen.kt:79:10 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/self_help/SelfHelpToolsScreen.kt:80:9 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/self_help/SelfHelpToolsScreen.kt:80:24 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/self_help/SelfHelpToolsScreen.kt:80:26 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/self_help/SelfHelpToolsScreen.kt:80:39 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/self_help/SelfHelpToolsScreen.kt:80:40 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/self_help/SelfHelpToolsScreen.kt:80:51 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/self_help/SelfHelpToolsScreen.kt:80:52 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/self_help/SelfHelpToolsScreen.kt:81:5 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/self_help/SelfHelpToolsScreen.kt:81:7 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/self_help/SelfHelpToolsScreen.kt:81:7 Functions which invoke @Composable functions must be marked with the @Composable annotation
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/self_help/SelfHelpToolsScreen.kt:81:7 Function declaration must have a name.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/self_help/SelfHelpToolsScreen.kt:81:9 Unresolved reference 'paddingValues'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/self_help/SelfHelpToolsScreen.kt:81:23 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/self_help/SelfHelpToolsScreen.kt:82:9 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/self_help/SelfHelpToolsScreen.kt:85:26 Unresolved reference 'paddingValues'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/self_help/SelfHelpToolsScreen.kt:106:35 Unresolved reference 'onBreathingExerciseClick'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/self_help/SelfHelpToolsScreen.kt:115:35 Unresolved reference 'onNightRoutineClick'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/self_help/SelfHelpToolsScreen.kt:124:35 Unresolved reference 'onQuickStretchingClick'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/self_help/SelfHelpToolsScreen.kt:130:1 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:105:17 No parameter with name 'navigationIcon' found.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:106:21 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:114:17 No parameter with name 'colors' found.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:115:17 No value passed for parameter 'content'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:117:10 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:118:9 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:118:24 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:118:26 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:118:39 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:118:40 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:118:51 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:118:52 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:119:5 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:119:7 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:119:7 Functions which invoke @Composable functions must be marked with the @Composable annotation
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:119:7 Function declaration must have a name.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:119:9 Unresolved reference 'paddingValues'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:119:23 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:120:9 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:123:26 Unresolved reference 'paddingValues'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:124:33 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:129:17 Unresolved reference 'isLoading'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:138:27 Unresolved reference 'counselorList'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:139:33 Unresolved reference 'counselorList'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:139:33 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:141:38 Unresolved reference 'full_name'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:142:43 Unresolved reference 'specialization'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:143:42 Unresolved reference 'selectedCounselor'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:143:69 Unresolved reference 'id'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:144:41 Unresolved reference 'selectedCounselor'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:176:23 Unresolved reference 'upcomingDates'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:177:32 Unresolved reference 'upcomingDates'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:177:32 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:178:39 Unresolved reference 'dayOfMonth'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:179:41 Unresolved reference 'month'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:184:38 Unresolved reference 'selectedDate'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:185:37 Unresolved reference 'selectedDate'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:201:38 Unresolved reference 'selectedTime'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:202:37 Unresolved reference 'selectedTime'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:219:34 Unresolved reference 'selectedMode'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:220:33 Unresolved reference 'selectedMode'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:237:29 Unresolved reference 'reason'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:238:39 Unresolved reference 'reason'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:238:48 Unresolved reference 'it'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:241:25 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:241:94 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:256:17 Unresolved reference 'errorMessage'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:257:22 Unresolved reference 'errorMessage'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:264:25 Unresolved reference 'selectedCounselor'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:264:54 Unresolved reference 'errorMessage'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:265:25 Unresolved reference 'reason'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:265:45 Unresolved reference 'errorMessage'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:266:25 Unresolved reference 'studentId'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:266:44 Unresolved reference 'errorMessage'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:267:21 Unresolved reference 'scope'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:268:25 Unresolved reference 'isBooking'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:269:25 Unresolved reference 'errorMessage'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:271:43 Unresolved reference 'selectedDate'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:272:45 Unresolved reference 'selectedTime'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:275:52 Unresolved reference 'selectedTime'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:276:56 Unresolved reference 'selectedTime'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:280:50 Unresolved reference 'studentId'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:281:52 Unresolved reference 'selectedCounselor'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:281:72 Unresolved reference 'id'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:284:46 Unresolved reference 'reason'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:285:44 Unresolved reference 'selectedMode'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:289:33 Unresolved reference 'onConfirmBookingClick'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:291:33 Unresolved reference 'errorMessage'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:294:29 Unresolved reference 'errorMessage'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:296:29 Unresolved reference 'isBooking'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:303:28 Unresolved reference 'isBooking'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:303:41 Unresolved reference 'reason'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:303:64 Unresolved reference 'selectedCounselor'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:305:21 Unresolved reference 'isBooking'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:313:1 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:92:17 No parameter with name 'navigationIcon' found.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:93:21 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:101:17 No parameter with name 'colors' found.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:102:17 No value passed for parameter 'content'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:104:10 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:105:9 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:105:24 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:105:26 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:105:39 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:105:40 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:105:51 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:105:52 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:106:5 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:106:7 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:106:7 Functions which invoke @Composable functions must be marked with the @Composable annotation
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:106:7 Function declaration must have a name.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:106:9 Unresolved reference 'paddingValues'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:106:23 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:107:9 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:110:26 Unresolved reference 'paddingValues'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:123:33 Unresolved reference 'searchQuery'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:124:43 Unresolved reference 'searchQuery'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:124:57 Unresolved reference 'it'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:128:41 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:128:88 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:129:41 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:129:116 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:149:31 Unresolved reference 'filters'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:151:44 Unresolved reference 'selectedFilter'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:152:45 Unresolved reference 'selectedFilter'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:153:43 None of the following candidates is applicable:
+fun Text(text: AnnotatedString, modifier: Modifier = ..., color: Color = ..., fontSize: TextUnit = ..., fontStyle: FontStyle? = ..., fontWeight: FontWeight? = ..., fontFamily: FontFamily? = ..., letterSpacing: TextUnit = ..., textDecoration: TextDecoration? = ..., textAlign: TextAlign? = ..., lineHeight: TextUnit = ..., overflow: TextOverflow = ..., softWrap: Boolean = ..., maxLines: Int = ..., minLines: Int = ..., inlineContent: Map<String, InlineTextContent> = ..., onTextLayout: (TextLayoutResult) -> Unit = ..., style: TextStyle = ...): Unit
+fun Text(text: String, modifier: Modifier = ..., color: Color = ..., fontSize: TextUnit = ..., fontStyle: FontStyle? = ..., fontWeight: FontWeight? = ..., fontFamily: FontFamily? = ..., letterSpacing: TextUnit = ..., textDecoration: TextDecoration? = ..., textAlign: TextAlign? = ..., lineHeight: TextUnit = ..., overflow: TextOverflow = ..., softWrap: Boolean = ..., maxLines: Int = ..., minLines: Int = ..., onTextLayout: ((TextLayoutResult) -> Unit)? = ..., style: TextStyle = ...): Unit
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:174:21 Unresolved reference 'isLoading'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:181:27 Unresolved reference 'groups'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:183:43 Unresolved reference 'name'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:184:47 Unresolved reference 'counselor_name'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:185:49 Unresolved reference 'description'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:186:52 Unresolved reference 'member_count'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:186:74 Unresolved reference 'max_students'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:187:42 Unresolved reference 'tags'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:188:46 Unresolved reference 'image_url'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:190:37 Unresolved reference 'studentId'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:191:33 Unresolved reference 'scope'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:194:68 Unresolved reference 'id'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:194:72 Unresolved reference 'studentId'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:197:45 Unresolved reference 'onJoinGroupSuccess'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:205:25 Unresolved reference 'groups'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:225:1 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:90:17 No parameter with name 'navigationIcon' found.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:91:21 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:99:17 No parameter with name 'colors' found.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:99:17 No value passed for parameter 'content'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:101:10 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:102:9 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:102:24 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:102:26 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:102:39 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:102:40 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:102:51 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:102:52 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:103:5 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:103:7 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:103:7 Functions which invoke @Composable functions must be marked with the @Composable annotation
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:103:7 Function declaration must have a name.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:103:9 Unresolved reference 'paddingValues'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:103:23 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:104:9 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:105:55 Unresolved reference 'paddingValues'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:109:17 Unresolved reference 'isLoading'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:115:24 Unresolved reference 'groups'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:122:23 Unresolved reference 'groups'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:124:39 Unresolved reference 'name'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:125:44 Unresolved reference 'membership_status'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:126:49 Unresolved reference 'membership_status'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:127:53 Unresolved reference 'membership_status'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:128:56 Unresolved reference 'counselor_name'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:129:50 Unresolved reference 'membership_status'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:130:48 Unresolved reference 'membership_status'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:131:42 Unresolved reference 'image_url'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:132:43 Unresolved reference 'onEnterGroupClick'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:132:67 Unresolved reference 'id'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:132:77 Unresolved reference 'name'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:138:1 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:87:17 No parameter with name 'navigationIcon' found.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:88:21 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:96:17 No parameter with name 'colors' found.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:96:17 No value passed for parameter 'content'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:98:10 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:99:9 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:99:24 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:99:26 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:99:39 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:99:40 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:99:51 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:99:52 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:100:5 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:100:7 Syntax error: Expecting a top level declaration.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:100:7 Functions which invoke @Composable functions must be marked with the @Composable annotation
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:100:7 Function declaration must have a name.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:100:9 Unresolved reference 'paddingValues'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:100:23 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:101:13 Unresolved reference 'isLoading'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:102:13 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:102:59 Unresolved reference 'paddingValues'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:106:17 Unresolved reference 'sessions'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:107:17 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:107:63 Unresolved reference 'paddingValues'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:111:17 @Composable invocations can only happen from the context of a @Composable function
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:114:49 Unresolved reference 'paddingValues'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:116:27 Unresolved reference 'sessions'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:118:39 Argument type mismatch: actual type is 'Int', but 'StudentSessionData' was expected.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:119:41 Unresolved reference 'onSessionClick'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:119:64 Unresolved reference 'id'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:119:76 Unresolved reference 'status'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:126:1 Syntax error: Expecting a top level declaration.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 3s
+6 actionable tasks: 1 executed, 5 up-to-date

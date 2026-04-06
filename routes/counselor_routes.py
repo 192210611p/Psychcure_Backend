@@ -49,8 +49,10 @@ def _notify_student_on_status_change(session_id, status):
     except: pass
 
 
-@counselor_bp.route('/login', methods=['POST'])
+@counselor_bp.route('/login', methods=['POST', 'OPTIONS'], strict_slashes=False)
 def login_counselor():
+    if request.method == 'OPTIONS':
+        return '', 204
     data = request.json
     # Allow login by email or faculty_id
     identifier = data.get('email') or data.get('faculty_id')

@@ -1,0 +1,44 @@
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:generateDebugRFile UP-TO-DATE
+
+> Task :app:compileDebugKotlin FAILED
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/admin/core/AdminDashboardScreen.kt:86:87 Unresolved reference 'SERVER_URL'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/admin/core/AdminProfileScreen.kt:75:79 Unresolved reference 'SERVER_URL'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/admin/management/AdminApprovedStudentsScreen.kt:168:79 Unresolved reference 'SERVER_URL'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/admin/management/AdminCounselorListScreen.kt:132:83 Unresolved reference 'SERVER_URL'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/admin/management/AdminPendingApprovalsScreen.kt:219:83 Unresolved reference 'SERVER_URL'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/common/EditProfileScreen.kt:144:97 Unresolved reference 'SERVER_URL'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/common/GroupDetailsScreen.kt:959:79 Unresolved reference 'SERVER_URL'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/common/GroupDetailsScreen.kt:1368:83 Unresolved reference 'SERVER_URL'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/counselor/core/CounselorDashboardScreen.kt:101:91 Unresolved reference 'SERVER_URL'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/counselor/core/CounselorProfileScreen.kt:105:83 Unresolved reference 'SERVER_URL'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/counselor/groups/CounselorGroupsScreen.kt:198:76 Unresolved reference 'SERVER_URL'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/counselor/sessions/CounselorSessionsScreen.kt:271:87 Unresolved reference 'SERVER_URL'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/counselor/sessions/CounselorSessionsScreen.kt:612:83 Unresolved reference 'SERVER_URL'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/counselor/sessions/CounselorSessionsScreen.kt:717:83 Unresolved reference 'SERVER_URL'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/dashboard/ProfileScreen.kt:119:87 Unresolved reference 'SERVER_URL'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/dashboard/StudentDashboard.kt:101:87 Unresolved reference 'SERVER_URL'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:225:79 Unresolved reference 'SERVER_URL'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:134:83 Unresolved reference 'SERVER_URL'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:125:83 Unresolved reference 'SERVER_URL'.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 10s
+6 actionable tasks: 1 executed, 5 up-to-date

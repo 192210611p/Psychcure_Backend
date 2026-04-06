@@ -76,10 +76,16 @@ def register_student():
             return jsonify({"status": "error", "message": "This Student ID is already registered."})
         return jsonify({"status": "error", "message": "Registration failed: Duplicate information found or database error."})
 
-@student_bp.route('/login', methods=['POST'])
+@student_bp.route('/login', methods=['POST', 'OPTIONS'], strict_slashes=False)
 def login_student():
+    if request.method == 'OPTIONS':
+        return '', 204
     data = request.json
-    student = query_db("SELECT * FROM students WHERE college_email = %s", (data['email'],), one=True)
+    email = data.get('email') or data.get('email_id')
+    if not email:
+        return jsonify({"status": "error", "message": "Email is required"})
+
+    student = query_db("SELECT * FROM students WHERE college_email = %s", (email,), one=True)
     if student:
         if student['status'] != 'approved':
             if student['status'] == 'rejected':

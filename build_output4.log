@@ -1,0 +1,109 @@
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:generateDebugRFile UP-TO-DATE
+
+> Task :app:compileDebugKotlin FAILED
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:25:30 Unresolved reference 'network'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:26:30 Unresolved reference 'network'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:27:30 Unresolved reference 'network'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:43:57 Unresolved reference 'SimpleCounselorData'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:43:79 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:43:79 Argument type mismatch: actual type is 'List<uninferred T (of fun <T> emptyList)>', but 'List<ERROR CLASS: Symbol not found for SimpleCounselorData>' was expected.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:44:30 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:44:30 Not enough information to infer type argument for 'T'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:44:56 Unresolved reference 'SimpleCounselorData'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:44:78 Null cannot be a value of a non-null type 'uninferred T (of fun <T> mutableStateOf)'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:60:24 Unresolved reference 'NetworkClient'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:62:60 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:63:35 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:63:35 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+fun <T> Collection<T>.isNotEmpty(): Boolean
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:109:38 Unresolved reference 'full_name'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:110:43 Unresolved reference 'specialization'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:111:61 Unresolved reference 'id'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:111:69 Unresolved reference 'id'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:246:40 Unresolved reference 'NetworkClient'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:247:33 Unresolved reference 'BookCounselorRequest'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:249:52 Smart cast to 'TypeVariable(K)?' is impossible, because 'selectedCounselor' is a delegated property.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BookCounselorScreen.kt:249:72 Unresolved reference 'id'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:25:30 Unresolved reference 'network'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:26:30 Unresolved reference 'network'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:27:30 Unresolved reference 'network'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:37:50 Unresolved reference 'BrowseGroupItem'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:37:68 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:37:68 Argument type mismatch: actual type is 'List<uninferred T (of fun <T> emptyList)>', but 'List<ERROR CLASS: Symbol not found for BrowseGroupItem>' was expected.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:48:28 Unresolved reference 'NetworkClient'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:50:53 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:157:27 Argument type mismatch: actual type is 'List<ERROR CLASS: Symbol not found for BrowseGroupItem>', but 'Int' was expected.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:159:43 Unresolved reference 'name'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:160:47 Unresolved reference 'counselor_name'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:161:49 Unresolved reference 'description'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:162:52 Unresolved reference 'member_count'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:162:74 Unresolved reference 'max_students'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:163:42 Unresolved reference 'tags'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:164:46 Unresolved reference 'image_url'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:169:52 Unresolved reference 'NetworkClient'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:170:45 Unresolved reference 'JoinGroupRequest'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/BrowseGroupsScreen.kt:170:68 Unresolved reference 'id'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:23:30 Unresolved reference 'network'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:24:30 Unresolved reference 'network'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:36:50 Unresolved reference 'MyGroupItem'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:36:64 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:36:64 Argument type mismatch: actual type is 'List<uninferred T (of fun <T> emptyList)>', but 'List<ERROR CLASS: Symbol not found for MyGroupItem>' was expected.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:43:32 Unresolved reference 'NetworkClient'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:45:57 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:89:23 Argument type mismatch: actual type is 'List<ERROR CLASS: Symbol not found for MyGroupItem>', but 'Int' was expected.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:91:39 Unresolved reference 'name'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:92:44 Unresolved reference 'membership_status'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:93:49 Unresolved reference 'membership_status'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:94:53 Unresolved reference 'membership_status'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:95:56 Unresolved reference 'counselor_name'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:96:50 Unresolved reference 'membership_status'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:97:48 Unresolved reference 'membership_status'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:98:42 Unresolved reference 'image_url'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:99:67 Unresolved reference 'id'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/MyGroupsScreen.kt:99:77 Unresolved reference 'name'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:21:30 Unresolved reference 'network'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:22:30 Unresolved reference 'network'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:35:52 Unresolved reference 'StudentSessionData'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:35:73 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:35:73 Argument type mismatch: actual type is 'List<uninferred T (of fun <T> emptyList)>', but 'List<ERROR CLASS: Symbol not found for StudentSessionData>' was expected.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:42:32 Unresolved reference 'NetworkClient'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:44:61 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:84:27 Argument type mismatch: actual type is 'List<ERROR CLASS: Symbol not found for StudentSessionData>', but 'Int' was expected.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:87:64 Unresolved reference 'id'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:87:76 Unresolved reference 'status'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:98:14 Unresolved reference 'StudentSessionData'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:101:37 Unresolved reference 'status'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:119:51 Unresolved reference 'profile_image_url'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:124:25 Unresolved reference 'not' for operator '!'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:133:37 Unresolved reference 'counselor_name'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:143:33 Unresolved reference 'counselor_name'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:149:33 Unresolved reference 'specialization'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:156:33 Unresolved reference 'status'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:182:37 Unresolved reference 'session_date'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:197:37 Unresolved reference 'session_time'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:205:17 Unresolved reference 'not' for operator '!'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:205:26 Unresolved reference 'notes'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:205:59 Unresolved reference 'status'.
+e: file:///C:/Users/pavithra/AndroidStudioProjects/MINDCARE/app/src/main/java/com/simats/psychcure/student/support/StudentSessionsScreen.kt:215:36 Unresolved reference 'notes'.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 3s
+6 actionable tasks: 1 executed, 5 up-to-date

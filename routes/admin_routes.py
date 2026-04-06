@@ -4,8 +4,10 @@ from database import query_db
 
 admin_bp = Blueprint('admin', __name__)
 
-@admin_bp.route('/login', methods=['POST'])
+@admin_bp.route('/login', methods=['POST', 'OPTIONS'], strict_slashes=False)
 def login_admin():
+    if request.method == 'OPTIONS':
+        return '', 204
     data = request.json
     admin = query_db("SELECT * FROM admins WHERE username = %s", (data['username'],), one=True)
     if admin and (data['password'] == admin['password'] or data['password'] == "admin123"):
